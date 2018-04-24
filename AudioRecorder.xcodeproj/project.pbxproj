@@ -13,6 +13,7 @@
 		5A49787A208ED170006DCF24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A497878208ED170006DCF24 /* Main.storyboard */; };
 		5A49787C208ED170006DCF24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A49787B208ED170006DCF24 /* Assets.xcassets */; };
 		5A49787F208ED170006DCF24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A49787D208ED170006DCF24 /* LaunchScreen.storyboard */; };
+		5A497888208ED181006DCF24 /* AudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A497887208ED181006DCF24 /* AudioRecorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5A49787B208ED170006DCF24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A49787E208ED170006DCF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A497880208ED170006DCF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A497886208ED181006DCF24 /* AudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioRecorder.h; sourceTree = "<group>"; };
+		5A497887208ED181006DCF24 /* AudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioRecorder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		5A49786E208ED170006DCF24 /* AudioRecorder */ = {
 			isa = PBXGroup;
 			children = (
+				5A497886208ED181006DCF24 /* AudioRecorder.h */,
+				5A497887208ED181006DCF24 /* AudioRecorder.m */,
 				5A497872208ED170006DCF24 /* AppDelegate.h */,
 				5A497873208ED170006DCF24 /* AppDelegate.m */,
 				5A497875208ED170006DCF24 /* ViewController.h */,
@@ -153,6 +158,7 @@
 			files = (
 				5A497877208ED170006DCF24 /* ViewController.m in Sources */,
 				5A497874208ED170006DCF24 /* AppDelegate.m in Sources */,
+				5A497888208ED181006DCF24 /* AudioRecorder.m in Sources */,
 				5A497871208ED170006DCF24 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +225,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -260,7 +266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -274,7 +280,7 @@
 				DEVELOPMENT_TEAM = M7A3C5D4BQ;
 				INFOPLIST_FILE = AudioRecorder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.AudioRecorder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylzb.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -286,7 +292,7 @@
 				DEVELOPMENT_TEAM = M7A3C5D4BQ;
 				INFOPLIST_FILE = AudioRecorder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.AudioRecorder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylzb.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

@@ -34,5 +34,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>kTCCServiceMediaLibrary</key>
+	<string>需要录音权限</string>
 </dict>
 </plist>
