@@ -115,6 +115,7 @@
 				TargetAttributes = {
 					5A49786B208ED170006DCF24 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = M7A3C5D4BQ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -276,10 +277,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = M7A3C5D4BQ;
 				INFOPLIST_FILE = AudioRecorder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.builder.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylzb.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -288,10 +289,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = M7A3C5D4BQ;
 				INFOPLIST_FILE = AudioRecorder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.builder.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylzb.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
